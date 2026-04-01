@@ -2,7 +2,7 @@
 
 A professional B2B website for industrial filtration and separation equipment, built with React, TypeScript, and Tailwind CSS.
 
-## ✨ Features
+## Features
 
 - **11 Complete Pages**: Home, About, Products, Product Detail, Solutions, Industries, Technology, News, Careers, Contact, 404
 - **Bilingual Support**: Full English/Chinese internationalization
@@ -12,7 +12,7 @@ A professional B2B website for industrial filtration and separation equipment, b
 - **UI Components**: shadcn/ui with Radix UI primitives
 - **Type Safe**: Full TypeScript coverage
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -36,7 +36,7 @@ npm run dev
 npm run build
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ├── src/
@@ -60,7 +60,7 @@ npm run build
 └── postcss.config.mjs              # PostCSS config
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: React 18.3.1
 - **Language**: TypeScript
@@ -71,7 +71,7 @@ npm run build
 - **UI Components**: shadcn/ui (Radix UI)
 - **Icons**: Lucide React 0.487.0
 
-## 📋 Available Scripts
+## Available Scripts
 
 ```bash
 npm run dev      # Start development server (http://localhost:5173)
@@ -79,7 +79,7 @@ npm run build    # Build for production
 npm run preview  # Preview production build
 ```
 
-## 🌍 Internationalization
+## Internationalization
 
 The website supports English and Chinese. Switch languages using the language selector in the header.
 
@@ -87,7 +87,7 @@ Translation files are located in:
 - `src/app/translations/en.ts` - English translations
 - `src/app/translations/zh.ts` - Chinese translations
 
-## 🎨 Design System
+## Design System
 
 - **Primary Color**: Blue (#030213, #1e40af, #3b82f6)
 - **Secondary Color**: Slate (#0f172a, #1e293b, #334155)
@@ -95,7 +95,7 @@ Translation files are located in:
 - **Components**: Custom-themed shadcn/ui components
 - **Icons**: Lucide React icon library
 
-## 📄 Pages Overview
+## Pages Overview
 
 1. **Home** - Hero section, product categories, company strengths, industries served, manufacturing capabilities
 2. **About** - Company history, mission & values, team, certifications, journey timeline
@@ -109,7 +109,7 @@ Translation files are located in:
 10. **Contact** - Contact form, office locations, business hours
 11. **404** - Custom not found page
 
-## 🎭 Animation Features
+## Animation Features
 
 The website includes premium animations powered by Framer Motion:
 - Hero section layered entrance animations
@@ -119,7 +119,7 @@ The website includes premium animations powered by Framer Motion:
 - Animated statistics counter
 - Smooth page transitions
 
-## 🔧 Customization
+## Customization
 
 ### Update Content
 
@@ -135,7 +135,7 @@ Tailwind CSS classes are used throughout. Update `src/styles/tailwind.css` for g
 2. Add route in `src/app/routes.tsx`
 3. Add translations in `src/app/translations/`
 
-## 📦 Deployment
+## Deployment
 
 Build the project and deploy the `dist` folder to your hosting service:
 
@@ -145,11 +145,11 @@ npm run build
 
 The built files will be in the `dist` directory, ready for deployment.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project uses the following open-source libraries:
 - React - MIT License
@@ -159,4 +159,4 @@ This project uses the following open-source libraries:
 
 ---
 
-Built with ❤️ using React, TypeScript, and Tailwind CSS
+Built using React, TypeScript, and Tailwind CSS
