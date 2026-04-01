@@ -17,10 +17,10 @@ export const motionConfig = {
 
   // Easing curves
   easing: {
-    smooth: [0.25, 0.1, 0.25, 1],        // Smooth ease-in-out
-    subtle: [0.33, 0.01, 0.66, 1],       // Very subtle ease
-    spring: [0.68, -0.55, 0.265, 1.55],  // Bouncy spring
-    snappy: [0.4, 0, 0.2, 1],            // Sharp and snappy
+    smooth: [0.25, 0.1, 0.25, 1] as [number, number, number, number],
+    subtle: [0.33, 0.01, 0.66, 1] as [number, number, number, number],
+    spring: [0.68, -0.55, 0.265, 1.55] as [number, number, number, number],
+    snappy: [0.4, 0, 0.2, 1] as [number, number, number, number],
   },
 
   // Stagger delays

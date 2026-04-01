@@ -1,5 +1,6 @@
+import React from 'react';
 import { Link } from "react-router";
-import { ArrowRight, CheckCircle, Factory, Zap, Award, Globe, ArrowUpRight, ChevronRight } from "lucide-react";
+import { ArrowRight, CheckCircle, Factory, Zap, Award, Globe, ChevronRight } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useTranslation } from "../translations";
 import { motion } from "motion/react";
