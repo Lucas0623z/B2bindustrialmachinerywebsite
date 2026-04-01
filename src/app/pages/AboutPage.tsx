@@ -2,6 +2,7 @@ import React from 'react';
 import { CheckCircle, Target, Users, TrendingUp, Globe2 } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { useTranslation } from "../translations";
+import { StatsCard } from "../components/StatsCard";
 
 export default function AboutPage() {
   const t = useTranslation();
@@ -96,12 +97,18 @@ export default function AboutPage() {
 
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 py-12 border-y border-slate-200">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl font-bold text-blue-900 mb-2">{stat.value}</div>
-                <div className="text-slate-600">{stat.label}</div>
-              </div>
-            ))}
+            {stats.map((stat, index) => {
+              const numValue = parseInt(stat.value.replace(/\D/g, ''));
+              const suffix = stat.value.replace(/\d/g, '');
+              return (
+                <StatsCard
+                  key={index}
+                  value={numValue}
+                  suffix={suffix}
+                  label={stat.label}
+                />
+              );
+            })}
           </div>
         </div>
       </section>

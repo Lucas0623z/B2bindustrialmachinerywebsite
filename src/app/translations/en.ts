@@ -83,12 +83,6 @@ export const en = {
       },
       learnMore: "Learn More About Our Technology",
     },
-    cta: {
-      title: "Ready to Find the Right Solution?",
-      subtitle: "Contact our technical team to discuss your requirements and get a customized solution",
-      requestQuote: "Request a Quote",
-      browseProducts: "Browse Products",
-    },
   },
 
   // About Page

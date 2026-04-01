@@ -85,12 +85,6 @@ export const zh: TranslationType = {
       },
       learnMore: "了解更多技术实力",
     },
-    cta: {
-      title: "准备寻找合适的解决方案？",
-      subtitle: "联系我们的技术团队讨论您的需求并获得定制解决方案",
-      requestQuote: "申请报价",
-      browseProducts: "浏览产品",
-    },
   },
 
   // About Page
